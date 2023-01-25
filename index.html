@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1400">
     <title>Привітання аудіозаписом</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
 <div class="wrapper">
+    <header class="header">
+        <div class="header__container">
+            <a href="" class="header__logo"></a>
+            <div class="header__menu__menu">
+                <div class="menu__icon">
+                    <span></span>
+                </div>
+                <nav class="menu__body">
+                    <ul class="menu__list">
+                        <li><a data-goto=".wrapper" href="#" class="menu__link">Розділ №1</a></li>
+                        <li><a data-goto=".content__ofus" href="#" class="menu__link">Розділ №2</a></li>
+                        <li><a data-goto=".content__num" href="#" class="menu__link">Розділ №3</a></li>
+                        <li>
+                            <a href="" class="menu__link">Сторінка 1</a>
+                            <span class="menu__arrow"></span>
+                            <ul class="menu__sub-list">
+                                <li>
+                                    <a href="" class="menu__sub-link">Розділ Сторінка 1</a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu__sub-link">Розділ Сторінка 2</a>
+                                </li>
+                                <li>
+                                    <a href="" class="menu__sub-link">Розділ Сторінка 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="menu__link">Сторінка 2</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     <div class="full-screen">
         <div class="full-screen__body">
             <div class="full-screen__title">Музикальна студія</div>
@@ -41,55 +76,40 @@
     <div class="content two">
         <div class="content__container">
             <div class="content__ofus">
-                <div class="content__title">Наші послуги</div>
+                <div class="content__title content__num">Наші послуги</div>
                 <div class='container'>
                     <div class="columns__title title">Замовляйте зараз</div>
-                    <div class="columns__row">
-                        <div class="columns__column">
-                            <div class="columns__item item">
-                                <div class="item__row">
-                                        <div class="item__body">
-                                        <div class="item__title">Купівля мінусу</div>
-                                        <div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
-                                    <a target="_blank" href="http://google.com">Забронювати</a>
+                        <div class="item__columns">
+                            <div class="item__row">
+                                <div class="item__body">
+                                    <div class="item__title">Купівля мінусу</div>
+                                    <div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+                                   <div class="linkbuy"> <a target="_blank" href="http://google.com">Забронювати</a></div>
                                     </div>
+                            </div>
+                            <div class="item__row">
+                                <div class="item__body">
+                                <div class="item__title">Купівля слів до пісні</div>
+                                <div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+                                <div class='linkbuy'><a target="_blank" href="http://google.com">Забронювати</a></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="columns__column">
-                            <div class="columns__item item">
-                                <div class="item__row">
-                                        <div class="item__body">
-                                        <div class="item__title">Купівля слів до пісні</div>
-                                        <div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
-                                        <a target="_blank" href="http://google.com">Забронювати</a>
-                                    </div>
+                            <div class="item__row">
+                                <div class="item__body">
+                                <div class="item__title">Зведення звуку та накладнання мінусу</div>
+                                <div class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, veniam unde? Est nobis, tempora consectetur magni odit qui repellendus fugit temporibus, adipisci distinctio corrupti accusamus iusto! Illum, et fuga. Debitis. Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+                                    <div class="linkbuy"><a target="_blank" href="http://google.com">Забронювати</a></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="columns__column">
-                            <div class="columns__item item">
-                                <div class="item__row">
-                                        <div class="item__body">
-                                        <div class="item__title">Зведення звуку та накладнання мінусу</div>
-                                        <div class="item__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, veniam unde? Est nobis, tempora consectetur magni odit qui repellendus fugit temporibus, adipisci distinctio corrupti accusamus iusto! Illum, et fuga. Debitis. Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
-                                        <a target="_blank" href="http://google.com">Забронювати</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="columns__column">
-                            <div class="columns__item item">
-                                <div class="item__row">
-                                    
-                                    <div class="item__body">
-                                        <div class="item__title">
-                                            <div class="item__title__title" >Повний пакет</div>
-                                            <div class="item__title__price ">1500грн</div>
-                                        </div>
-                                        <div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
-                                        <a class="non" target="_blank" href="http://google.com">Забронювати</a>
-                                    </div>
+                            <div class="item__row">
+                                <div class="item__body">
+                                    <div class="item__2title">
+                                    <div class="item__title__ofprice" >Повний пакет</div>
+                                    <div class="item__title__price">1500грн</div>
+                                     </div>
+                                <div class="item__text">Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</div>
+                                    <div class="nonetext"> consectetur, adipisicing elit. Enim doloribus deserunt, dolore, hic adipisci necessitatibus quam quas molestias ipsam ea error fugiat illo rem minus voluptatibus voluptate obcaecati explicabo sequi.</div>
+                                <div class="linkbuy"><a class="non" target="_blank" href="http://google.com">Забронювати</a></div>
                                 </div>
                             </div>
                         </div>
