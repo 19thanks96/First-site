@@ -272,9 +272,11 @@ a:hover{
 	box-shadow: -1px 0px 11px 11px rgb(255 255 255);
     background-color: rgb(255 255 255);
     color: red;
-	
 }
 
+.reservation:hover{
+	min-width: 120px;
+}
 
 .nonetext{
 opacity: 0;
@@ -542,3 +544,4 @@ body._touch .menu__list > li._active .menu__sub-list {
 	display: none;
 }
 }
+
