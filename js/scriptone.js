@@ -78,3 +78,4 @@ if (iconMenu) {
     });
 }
 
+document.querySelectorAll('*').forEach((e) =>{e.setAttribute('draggable', false)});
